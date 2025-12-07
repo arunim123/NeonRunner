@@ -215,10 +215,11 @@ export const GameCanvas: React.FC<GameCanvasProps> = ({
       });
     } else {
       const type = Math.random() > 0.5 ? 'GROUND_SPIKE' : 'AERIAL_DRONE';
+      // Lowered Aerial Drone spawn to GROUND_Y - 100 to ensure it's head-level and requires ducking
       obstaclesRef.current.push({
         id: Date.now(),
         x: 1400,
-        y: type === 'GROUND_SPIKE' ? GAME_CONSTANTS.GROUND_Y - 50 : GAME_CONSTANTS.GROUND_Y - 140,
+        y: type === 'GROUND_SPIKE' ? GAME_CONSTANTS.GROUND_Y - 50 : GAME_CONSTANTS.GROUND_Y - 100,
         width: type === 'GROUND_SPIKE' ? 50 : 60,
         height: type === 'GROUND_SPIKE' ? 50 : 40,
         color: COLORS.NEON_RED,

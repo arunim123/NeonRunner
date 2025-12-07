@@ -56,7 +56,7 @@ export const GAME_CONSTANTS = {
   PLAYER_X: 150, // Fixed X position
   PLAYER_WIDTH: 50,
   PLAYER_HEIGHT: 80,
-  PLAYER_DUCK_HEIGHT: 40,
+  PLAYER_DUCK_HEIGHT: 35, // Reduced from 40 to make ducking safer
 
   POWERUP_DURATION: 8000,
   SHAKE_INTENSITY: 10,
@@ -64,7 +64,7 @@ export const GAME_CONSTANTS = {
 
 export const MOVEMENT_THRESHOLDS = {
   JUMP_THRESHOLD: 0.05, 
-  DUCK_THRESHOLD: 0.05,
+  DUCK_THRESHOLD: 0.04, // Reduced from 0.05 to make triggering duck easier
 };
 
 export const POWERUP_TYPES = {
