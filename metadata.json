@@ -1,0 +1,7 @@
+{
+  "name": "Neon Runner: Motion Edition",
+  "description": "A high-octane, neon-themed endless runner controlled by your physical body movements using webcam pose detection.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
