@@ -1,6 +1,6 @@
 # 🎮 Neon Runner: Motion Edition
 
-A motion-controlled infinite runner game built with React, TypeScript, and Webcam-based pose detection. Use your body movements to jump and duck through obstacles in this neon-themed arcade experience!
+A motion-controlled infinite runner game built with React, TypeScript, and Webcam-based pose detection. Use your body movements to jump and duck through obstacles in this neon-themed arcade experience! 
 
 ## 📋 Overview
 
